@@ -4,23 +4,10 @@
 3 info using node@v0.10.35
 4 info git [ 'status', '--porcelain' ]
 5 verbose stack Error: Git working directory not clean.
-5 verbose stack A  .gitignore
-5 verbose stack A  .idea/.name
-5 verbose stack A  .idea/crawler.iml
-5 verbose stack A  .idea/encodings.xml
-5 verbose stack A  .idea/jsLibraryMappings.xml
-5 verbose stack A  .idea/libraries/Node_js_Dependencies_for_Crawler.xml
-5 verbose stack A  .idea/libraries/sass_stdlib.xml
-5 verbose stack A  .idea/misc.xml
-5 verbose stack A  .idea/modules.xml
-5 verbose stack A  .idea/scopes/scope_settings.xml
-5 verbose stack A  .idea/vcs.xml
-5 verbose stack AM .idea/workspace.xml
-5 verbose stack AM .travis.yml
-5 verbose stack AD index.js
-5 verbose stack AM lib/crawler.js
-5 verbose stack A  makefile
-5 verbose stack AM package.json
+5 verbose stack M .idea/workspace.xml
+5 verbose stack M app.js
+5 verbose stack D npm-debug.log
+5 verbose stack M package.json
 5 verbose stack     at /usr/local/lib/node_modules/npm/lib/version.js:142:37
 5 verbose stack     at ChildProcess.exithandler (child_process.js:656:7)
 5 verbose stack     at ChildProcess.emit (events.js:98:17)
@@ -34,23 +21,10 @@
 9 error node v0.10.35
 10 error npm  v2.1.18
 11 error Git working directory not clean.
-11 error A  .gitignore
-11 error A  .idea/.name
-11 error A  .idea/crawler.iml
-11 error A  .idea/encodings.xml
-11 error A  .idea/jsLibraryMappings.xml
-11 error A  .idea/libraries/Node_js_Dependencies_for_Crawler.xml
-11 error A  .idea/libraries/sass_stdlib.xml
-11 error A  .idea/misc.xml
-11 error A  .idea/modules.xml
-11 error A  .idea/scopes/scope_settings.xml
-11 error A  .idea/vcs.xml
-11 error AM .idea/workspace.xml
-11 error AM .travis.yml
-11 error AD index.js
-11 error AM lib/crawler.js
-11 error A  makefile
-11 error AM package.json
+11 error M .idea/workspace.xml
+11 error M app.js
+11 error D npm-debug.log
+11 error M package.json
 12 error If you need help, you may report this error at:
 12 error     <http://github.com/npm/npm/issues>
 13 verbose exit [ 1, true ]
