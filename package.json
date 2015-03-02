@@ -1,6 +1,6 @@
 {
   "name": "aci-crawler",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "爬虫",
   "main": "app.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "domino": "~1.0.18",
     "zepto-node": "~1.0.0",
     "generic-pool": "~2.1.1",
-    "underscore": "~1.8.2"
+    "underscore": "~1.8.2",
+    "request": ">=2.20.0"
   }
 }
