@@ -1,6 +1,6 @@
 {
   "name": "aci-crawler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "爬虫",
   "main": "app.js",
   "scripts": {
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/aci227/crawler",
   "dependencies": {
-    "jschardet" : "~1.1.0",
-    "domino" : "~1.0.18",
-    "zepto-node" : "~1.0.0",
+    "jschardet": "~1.1.0",
+    "domino": "~1.0.18",
+    "zepto-node": "~1.0.0",
     "generic-pool": "~2.1.1",
     "underscore": "~1.8.2"
   }
