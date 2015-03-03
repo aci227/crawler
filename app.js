@@ -218,7 +218,12 @@ exports.Crawler = function(options){
                 response.body = response.body.toString('utf8');
             }
         }else{
-            response.body = iconvLite.decode(response.body,charset);
+            if(iconv){
+                var iconvObj = new iconv(charset,'UTF-8//TRANSLIT//IGNORE');
+                response.body = iconvObj.convert(response.body).toString();
+            }else {
+                response.body = iconvLite.decode(response.body, charset);
+            }
         }
         if(useCache(toQueue) && !fromCache){
             if(toQueue.cache){
